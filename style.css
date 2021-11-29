@@ -1,0 +1,79 @@
+.top{
+    background-color: rgb(79, 79, 218);
+    width: 50%;
+    border-radius: 20px;
+    padding: 2px;
+    margin: 20px;
+    transition: all 0.8s;
+}
+.top:hover{
+    width: 1300px;
+    max-width: 1700px;
+}
+li{
+    font-size: 20px;
+}
+li:hover{
+    font-size: 25px;
+}
+.mother{
+    background-color: rgb(79, 79, 218);
+    width: 1000px;
+    border-radius: 20px;
+    padding: 2px;
+    margin: 20px;
+    max-width: 1700px;
+    display: flex;
+    justify-content: space-around;
+    transition: all 0.8s;
+}
+.mother:hover{
+    width: 1300px;
+}
+.child{
+    background-color: white;
+    opacity: 0.7;
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    animation: skew 3s infinite alternate;
+    transform: skew(20deg);
+}
+@keyframes skew{
+    0%{
+        transform: skewX(20deg)
+    }
+    100%{
+        transform: skewX(-20deg)
+    }
+}
+.img{
+    width: 100%;
+    height: 250px;
+    background: url(Depositphotos_4958984_l-2015-pic905-895x505-51626.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+picture{
+    height: 560px;
+    width: 100%;
+}
+picture img{
+    max-width: 100%;
+}
+.father{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.univers{
+    align-items: flex-start;
+}
+.block img{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
